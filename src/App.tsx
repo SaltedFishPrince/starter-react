@@ -3,7 +3,6 @@ import ReactSvg from '@/assets/react.svg?react';
 
 function App() {
   const [isDark, toggleTheme] = useDark();
-
   return (
     <div className="h-screen w-screen">
       <ReactSvg />
